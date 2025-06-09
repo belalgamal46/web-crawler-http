@@ -5,7 +5,7 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "node main.js",
+    "start": "node --no-warnings main.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/belalgamal46/web-crawler-http#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^26.1.0"
   }
 }
